@@ -10,7 +10,7 @@ public class BinarySearch {
         while(l<=r)
         {
            
-            int mid = (l + r ) / 2;   // point where mostly stuck in this
+            int mid = (l + r ) / 2; 
             if(arr[mid]==key)
             {
                 System.out.println("Element Found At index : "+mid);
@@ -58,7 +58,8 @@ public class BinarySearch {
     public static void main(String[] args) {
         int [] arr = {2,3,5,7,9,22,55,88};  // ensure that it sorted array
 
-      //  BinarySearching(arr, 0, arr.length-1, 0);
+        BinarySearching(arr, 0, arr.length-1, 0);
+        System.out.println("Recursion Sulution");
         Searching(arr, 88);
         }
 }
