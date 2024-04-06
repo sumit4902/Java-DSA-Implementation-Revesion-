@@ -1,4 +1,4 @@
-package Graph;
+package graphDSA;
 import java.util.*;
  public class BFS {
   
